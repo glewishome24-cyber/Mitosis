@@ -1,0 +1,25 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1788814846
+border.gd::GDScript::1321152401630803817::1788747286::0::1::::<>Area2D<><>0<>0<><>::
+game_over.gd::GDScript::7726113833266711323::1788761985::0::1::::<>Control<><>0<>0<><>::
+game_over.tscn::PackedScene::4344176527157570043::1788762287::0::1::::<><><>0<>0<><>::uid://dict730a0e07h::::res://game_over.gd<>uid://b1aate5yur1ps::::res://Textures/seal_game_over.png<>uid://d37h88ydmejmd::::res://game_over_time.gd
+game_over_time.gd::GDScript::9191095481720720639::1788760749::0::1::::<>Label<><>0<>0<><>::
+gus.gd::GDScript::4042445231106295916::1788761097::0::1::::<>CharacterBody2D<><>0<>0<><>::
+gus.tscn::PackedScene::5516231605013676354::1788757243::0::1::::<><><>0<>0<><>::uid://pv7tw2px03i3::::res://Textures/igor.webp<>uid://bxugqnugtnuf1::::res://gus.gd
+gus_timer.gd::GDScript::2895550949189299367::1788671482::0::1::::<>Timer<><>0<>0<><>::
+input_timer.gd::GDScript::8211743180930420227::1788677383::0::1::::<>Timer<><>0<>0<><>::
+label.gd::GDScript::5009544058641685883::1788761778::0::1::::<>Label<><>0<>0<><>::
+level.gd::GDScript::7986153949025163291::1788757681::0::1::::<>Node2D<><>0<>0<><>::
+level.tscn::PackedScene::2748825627457095805::1788761778::0::1::::<><><>0<>0<><>::uid://dl1s1218l5ijj::::res://level.gd<>uid://2iag56vm8gbo::::res://Textures/Screenshot 2025-08-02 011025.png<>uid://ckudr8chj1kgo::::res://gus.tscn<>uid://s28gmhdx0xm4::::res://border.gd<>uid://6mo7lrqbphwj::::res://sigma.tscn<>uid://qji4k6uexd0j::::res://main_timer.gd<>uid://bhivkib7sthtn::::res://gus_timer.gd<>uid://do83hfjdrwoop::::res://input_timer.gd<>uid://cdmwpukn3c1bb::::res://label.gd
+main_timer.gd::GDScript::1142138995997830303::1788756402::0::1::::<>Timer<><>0<>0<><>::
+sigma.gd::GDScript::8763611320256731546::1788753785::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sigma.tscn::PackedScene::2201534473878836569::1788760614::0::1::::<><><>0<>0<><>::uid://dw4fnsfstvhiw::::res://sigma.gd<>uid://b63hlq7nkb50o::::res://Textures/robust_seal.jpg<>uid://c6k18h28dakbn::::res://sigmaArea.gd
+sigmaArea.gd::GDScript::6970977281593153255::1788678141::0::1::::<>Area2D<><>0<>0<><>::
+::res://Global/::1788761533
+global.gd::GDScript::7542839436801091269::1788761533::0::1::::<>Node<><>0<>0<><>::
+::res://Textures/::1788759858
+icon.svg::CompressedTexture2D::1790880795757653::1788408984::1788664565::1::::<><><>0<>0<>dc8bf3410ef7f2fc7b73f89f17d7fe9d<>res://.godot/imported/icon.svg-f434aa81383d8e7efdc588f214c40953.ctex::
+igor.webp::CompressedTexture2D::1098162659195165684::1788408984::1788664565::1::::<><><>0<>0<>8b081cf2f3066a92c06e35f6d3bb13dc<>res://.godot/imported/igor.webp-a8ff55bb987676839a39e9cc707289c9.ctex::
+robust_seal.jpg::CompressedTexture2D::4620522966679540128::1788408984::1788664565::1::::<><><>0<>0<>e98f4a42c4b723756ffe046f7585029b<>res://.godot/imported/robust_seal.jpg-bd311e20f631394ea6ee2ccb6f2fc50f.ctex::
+Screenshot 2025-08-02 011025.png::CompressedTexture2D::1911626139583707120::1788408984::1788664565::1::::<><><>0<>0<>dbb9b63e7a1d9f83b9554ead5f174788<>res://.godot/imported/Screenshot 2025-08-02 011025.png-10a030e943235d1117142067a50e0605.ctex::
+seal_game_over.png::CompressedTexture2D::4211364805921544768::1788759853::1788759858::1::::<><><>0<>0<>cecae51d93b75b68d361edba35011932<>res://.godot/imported/seal_game_over.png-1bee42e2be50fa7a840b0ec647fbef34.ctex::
