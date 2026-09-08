@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://b25l7nlk4xa8r"]
+
+[ext_resource type="Script" uid="uid://dict730a0e07h" path="res://Scripts/game_over.gd" id="1_ccer4"]
+[ext_resource type="Texture2D" uid="uid://b1aate5yur1ps" path="res://Textures/seal_game_over.png" id="1_yxx3c"]
+
+[node name="GameOver" type="Control" unique_id=1455834387]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ccer4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1227635565]
+position = Vector2(577.50006, 323)
+scale = Vector2(1.257361, 1.1319444)
+texture = ExtResource("1_yxx3c")
+
+[node name="Label" type="Label" parent="." unique_id=407454871]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.37100002
+anchor_right = 0.5
+anchor_bottom = 0.37100002
+offset_left = -210.00003
+offset_top = -93.40802
+offset_right = 79.0
+offset_bottom = 9.907761
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.425, 1.425)
+theme_override_colors/font_color = Color(0.39215687, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.6627451)
+theme_override_font_sizes/font_size = 60
+text = "Time: "
+
+[node name="Button" type="Button" parent="." unique_id=1077670643]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -114.0
+offset_top = -66.0
+offset_right = 117.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 0
+offset_transform_enabled = true
+theme_override_font_sizes/font_size = 30
+text = "return to menu"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
