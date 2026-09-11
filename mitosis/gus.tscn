@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://ckudr8chj1kgo"]
 
 [ext_resource type="Texture2D" uid="uid://pv7tw2px03i3" path="res://Textures/igor.webp" id="1_4flbx"]
-[ext_resource type="Script" uid="uid://bxugqnugtnuf1" path="res://gus.gd" id="1_onrkg"]
+[ext_resource type="Script" uid="uid://bxugqnugtnuf1" path="res://Scripts/gus.gd" id="1_onrkg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6vcyh"]
 

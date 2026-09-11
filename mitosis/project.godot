@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="mitosis"
-run/main_scene="uid://bffs0yqr2jdrx"
+run/main_scene="uid://bobsy17u6j0tf"
 config/features=PackedStringArray("4.7")
 
 [autoload]
@@ -48,3 +48,4 @@ Right={
 2d_physics/layer_3="BorderPhys"
 2d_physics/layer_4="BorderArea"
 2d_physics/layer_5="SigmaArea"
+2d_physics/layer_6="Mine"

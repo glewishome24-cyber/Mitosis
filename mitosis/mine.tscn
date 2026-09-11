@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://smdi03kahcko"]
+
+[ext_resource type="Script" uid="uid://ch6gg3bd8qibt" path="res://mine.gd" id="1_i6hay"]
+[ext_resource type="Texture2D" uid="uid://culmpbueaq21s" path="res://Textures/MineRed.png" id="1_iuis7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i6hay"]
+
+[node name="Mine" type="Area2D" unique_id=346790055]
+scale = Vector2(0.142, 0.142)
+collision_layer = 32
+collision_mask = 16
+script = ExtResource("1_i6hay")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2061208631]
+texture = ExtResource("1_iuis7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1158056831]
+scale = Vector2(25.615, 25.615)
+shape = SubResource("CircleShape2D_i6hay")

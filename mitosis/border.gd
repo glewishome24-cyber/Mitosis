@@ -1,6 +1,8 @@
-extends Area2D
+extends StaticBody2D
 
-signal border_x_reflect
 
-func _on_border_x_body_entered(body: Node2D) -> void:
-	border_x_reflect.emit(body)
+func _on_set_change_timeout() -> void:
+	var leftTween = create_tween()
+	var rightTween = create_tween()
+	leftTween.tween_property($leftWall, "position", Vector2(250,0), 2)
+	rightTween.tween_property($rightWall, "position", Vector2(900,0), 2)
